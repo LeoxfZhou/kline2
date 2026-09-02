@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local secrets and machine-specific files ###
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+!.env.example
+src/main/resources/application-local.properties
+src/main/resources/application-secrets.properties
